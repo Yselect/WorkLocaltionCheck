@@ -12,6 +12,7 @@
 		339B9AD921F0FB6400147195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339B9AD721F0FB6400147195 /* Main.storyboard */; };
 		339B9ADB21F0FB6500147195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339B9ADA21F0FB6500147195 /* Assets.xcassets */; };
 		339B9ADE21F0FB6500147195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339B9ADC21F0FB6500147195 /* LaunchScreen.storyboard */; };
+		339B9AE721F1BCBD00147195 /* HeaderFilterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9AE621F1BCBD00147195 /* HeaderFilterControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		339B9ADA21F0FB6500147195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		339B9ADD21F0FB6500147195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		339B9ADF21F0FB6500147195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339B9AE621F1BCBD00147195 /* HeaderFilterControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFilterControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				339B9ADA21F0FB6500147195 /* Assets.xcassets */,
 				339B9ADC21F0FB6500147195 /* LaunchScreen.storyboard */,
 				339B9ADF21F0FB6500147195 /* Info.plist */,
+				339B9AE621F1BCBD00147195 /* HeaderFilterControl.swift */,
 			);
 			path = WorkLocaltionCheck;
 			sourceTree = "<group>";
@@ -90,6 +93,9 @@
 		339B9AC821F0FB6400147195 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "nick ruengpakorn";
@@ -137,6 +143,7 @@
 			files = (
 				339B9AD621F0FB6400147195 /* MainViewController.swift in Sources */,
 				339B9AD421F0FB6400147195 /* AppDelegate.swift in Sources */,
+				339B9AE721F1BCBD00147195 /* HeaderFilterControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
